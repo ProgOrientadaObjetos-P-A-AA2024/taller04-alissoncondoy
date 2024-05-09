@@ -70,6 +70,7 @@ public class PagoInstituto {
             return cedula;
         }
         
+     @Override
         public String toString(){
             String cadena = String.format("Pago Profesores\n"
                     + "Nombre: %s\n"
